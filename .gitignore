@@ -1,0 +1,6 @@
+.terraform*
+!.terraform.lock.hcl
+*_config
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
