@@ -1131,7 +1131,7 @@ grafana:
     - name: Loki
       type: loki
       access: proxy
-      url: https://loki-stack:3100
+      url: http://loki-stack:3100
       jsonData:
         maxLines: 1000
   # - name: prometheus-sample
